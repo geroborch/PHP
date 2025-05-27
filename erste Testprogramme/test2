@@ -1,0 +1,17 @@
+	
+		#include <iostream>
+		#include <vector>
+		#include <string>
+		 
+		using namespace std;
+		 
+		int main()
+		{
+		    vector<string> msg {"Danke C++", "dass", "ich", "einmal", "kompilieren", "durfte!"};
+		 
+		    for (const string& word : msg)
+		    {
+		        cout << word << " ";
+		    }
+		    cout << endl;
+    std::cin.ignore();
