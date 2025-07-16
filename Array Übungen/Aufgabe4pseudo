@@ -1,0 +1,45 @@
+Erstelle ein quadratisches Muster 7x7 bei dem beide diagonalen mit * gefüllt sind und der Rest Leerzeichen enthält.
+Speichere jede Zeile in einem Array.
+
+
+x     x
+ x   x
+  x x
+   x
+  x x
+ x   x
+x     x
+
+
+////////////////////////erster Versuch/////////////////////////////
+create 7 arrays
+
+in line 1 write * space space space space space *
+in line 2 write * space space space  *
+in line 3 write * space *
+in line 4 write * 
+in line 5 write * space *
+in line 6 write * space space space *
+in line 7 write * space space space space space *
+
+output all the arrays
+
+
+
+/////////////////// zweiter Versuch ///////////////////////////////
+
+initalisiere ein leeres Array namens $pattern
+
+für i von 0 bis 6 (für jede Zeile):
+    initialisiere leere Zeichenkette oder Array namens $line
+
+    für j von 0 bis 6 (für jede Spalte):
+        wenn i == j oder i + j == 6:
+            füge '*' zu $line hinzu
+        sonst:
+            füge ' ' (Leerzeichen) zu $line hinzu
+
+            speichere $line in $pattern[i]
+
+        gebe alle Zeilen aus $pattern aus
+

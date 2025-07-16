@@ -6,7 +6,7 @@
     <title>PHP Tabelle</title>                      // Titel des Dokuments
     <style>                                         // CSS-Style
         table, td {                                 // Style für die Tabelle und die Zellen
-            border: 1px black;                // Schwarzer Rand um die Tabelle und die Zellen
+            border: 1px black;                       // Schwarzer Rand um die Tabelle und die Zellen
             border-collapse: collapse;              // Ränder der Zellen zusammenführen
             padding: 4px;                           // Innenabstand der Zellen
             text-align: center;                     // Text in den Zellen zentrieren
